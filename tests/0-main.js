@@ -1,4 +1,3 @@
-import getResponseFromAPI from "./0-promise.js";
+import { getListStudents } from '../0-get_list_students.js';
 
-const response = getResponseFromAPI();
-console.log(response instanceof Promise);
+console.log(getListStudents());
